@@ -1,6 +1,6 @@
 """verify_version_spec
 
-Usage: verify_version_spec --spec=<spec> <target>
+Usage: verify_version_spec --spec=<spec> <target> [<ignored> ...]
 
 Options:
   --spec=<spec>     Set the version specification to match the target against. Example: ">=0.9,<0.10"
