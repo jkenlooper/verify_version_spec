@@ -14,9 +14,10 @@ setup(
     name=name,
     version=version,
     author='Jake Hickenlooper',
-    author_email='jake@bottlerocket.net',
+    author_email='jake@weboftomorrow.com',
     description="Verify that a version specification matches a version string.",
-    long_description=read('README.rst'),
+    long_description=read('README.md'),
+    url='https://github.com/jkenlooper/verify_version_spec',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
