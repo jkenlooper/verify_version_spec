@@ -5,7 +5,7 @@ from setuptools import setup
 import os
 
 name = "verify_version_spec"
-version = "0.0.1"
+version = "0.0.2"
 
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
