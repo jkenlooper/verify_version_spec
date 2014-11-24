@@ -1,7 +1,7 @@
 import ez_setup
 ez_setup.use_setuptools()
 
-from setuptools import setup, find_packages
+from setuptools import setup
 import os
 
 name = "verify_version_spec"
@@ -28,7 +28,7 @@ setup(
         'Programming Language :: Python :: 2.6',
         'Topic :: Software Development :: Build Tools',
         ],
-    packages=find_packages(),
+    py_modules=['verify_version_spec'],
     include_package_data=True,
     zip_safe=False,
     install_requires=[
